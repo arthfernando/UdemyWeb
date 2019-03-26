@@ -10,8 +10,15 @@
                 color: #fff;
             }
         </style>
+        <script>
+            function escreverNome() {
+                nome.innerHTML = "Curso HTML5 Essencial";
+            }
+
+            window.onload = escreverNome;
+        </script>
     </head>
     <body>
-        <p>Esta é a segunda unidade</p>
+        <p id="nome"></p>
     </body>
 </html>
