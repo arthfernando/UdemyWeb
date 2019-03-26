@@ -8,23 +8,16 @@
         <meta name="Keywords"   content="HTML5, Front End, CSS">
         <meta name="description"content="Pagina HTML5">
 
-        <meta charset="utf-8">
-        <style>
-            body {
-                background: #f0f0f0;
-                font-family: Arial, sans-serif;
-                color: #fff;
-            }
-        </style>
-        <script>
-            function escreverNome() {
-                nome.innerHTML = "Curso HTML5 Essencial";
-            }
+        <meta http-equiv="refresh"  content="4">
 
-            window.onload = escreverNome;
+        <script>
+            function sorteioNumero() {
+                resultado.innerHTML = Math.random() * 50;
+            }
+            window.onload = sorteioNumero;
         </script>
     </head>
     <body>
-        <p id="nome"></p>
+        <p id="resultado"></p>
     </body>
 </html>
