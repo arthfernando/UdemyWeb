@@ -1,0 +1,12 @@
+div.container {
+	padding-top: 65px;
+}
+
+.navbar-default {
+	background: rgb(255,255,255);
+}
+
+.active {
+	font-size: 18px;
+
+}
