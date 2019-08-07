@@ -1,0 +1,1 @@
+colocar arquivos php na pasta xampp/htdocs

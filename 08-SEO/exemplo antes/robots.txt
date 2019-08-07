@@ -1,0 +1,6 @@
+user-agent: *
+Disallow: /admin/
+Disallow: /includes/
+Sitemap: http://www.seusite.com.br/sitemap.xml
+
+Verificar site para aparecer no google == ver video aula 277 (google webmasters)
